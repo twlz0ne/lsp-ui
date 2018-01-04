@@ -200,8 +200,7 @@ It should returns a list of filenames to expand.")
       (propertize " "
                   'face `(:background ,(face-background 'lsp-ui-peek-header) :height 1)
                   'display `(space :align-to (- right-fringe 0)))
-      (propertize "\n" 'face '(:height 1))
-      (propertize "\n" 'face '(:height 0.5))))))
+      (propertize "\n" 'face '(:height 1))))))
 
 (defun lsp-ui-peek--peek-new (src1 src2)
   "SRC1 SRC2."
